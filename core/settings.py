@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure--(%$ovz#^)jv8s-3nlpyl6abc4z42v8$i!ure&n_%dcefe0e&8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
@@ -87,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'consultorio',
         'USER': 'root',
-        'PASSWORD': 'Hl21375',
+        'PASSWORD': '1375',
         'HOST': 'localhost',
         'PORT': '3306'
     }
